@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     icon: "/nimi-logo.png",
     apple: "/nimi-logo.png",
   },
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({
